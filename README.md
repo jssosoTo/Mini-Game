@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Which games in this project now?
+
+`Tic-Tac-Toe` `Gobang`
+
 ## Stack
 
 `React` `React Router` `Zustand` `Ant Design Icon` `classNames`
