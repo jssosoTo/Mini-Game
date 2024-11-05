@@ -29,6 +29,11 @@ const routes: (RouteObject & { name: string; hideInMenu?: boolean })[] = [
     name: "五子棋",
     element: <Gobang />,
   },
+  {
+    path: "/StopEnter",
+    name: "阻挡球",
+    element: <div>阻挡球</div>,
+  },
 ];
 function App() {
   const location = useLocation();
