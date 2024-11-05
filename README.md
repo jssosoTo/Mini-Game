@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Which games in this project now?
 
-`Tic-Tac-Toe` `Gobang`
+`Tic-Tac-Toe` `Gobang` `Fire Fields`
 
 ## Stack
 
