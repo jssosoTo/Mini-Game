@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import TicTacToe from "./pages/TicTacToe/index.tsx";
 import Home from "./pages/Home/index.tsx";
+import Gobang from "./pages/Gobang/index.tsx";
 
 const routes: (RouteObject & { name: string; hideInMenu?: boolean })[] = [
   {
@@ -26,7 +27,7 @@ const routes: (RouteObject & { name: string; hideInMenu?: boolean })[] = [
   {
     path: "/Gobang",
     name: "五子棋",
-    element: <div>Gobang</div>,
+    element: <Gobang />,
   },
 ];
 function App() {
