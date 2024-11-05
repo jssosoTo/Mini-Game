@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import { showConfetti } from "../..";
 
 const initialState = {
   board: new Array(9).fill(""),
@@ -32,6 +33,7 @@ export const useTicTacToeStore = create((set: any, get: any) => ({
       operations.toString().includes(combine)
     );
     if (isWinner) {
+      showConfetti();
       set((state: any) => ({
         ...state,
         ...initialState,
