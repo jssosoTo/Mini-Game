@@ -35,7 +35,10 @@ export default function Gobang() {
           <button className="w-1/2 btn" onClick={resetGame}>
             重置比赛
           </button>
-          <button className="w-1/2 btn" onClick={withdraw}>
+          <button
+            className="w-1/2 btn"
+            onClick={isGameOver ? () => {} : withdraw}
+          >
             悔棋
           </button>
         </div>

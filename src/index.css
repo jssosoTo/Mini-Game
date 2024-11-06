@@ -22,6 +22,11 @@ code {
     monospace;
 }
 
+.spanPow-15 {
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+}
+
 .btn {
   padding: 0.4rem 1rem;
   background-color: #22c55e;
